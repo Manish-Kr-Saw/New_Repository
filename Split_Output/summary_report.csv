@@ -1,0 +1,9 @@
+summary_metric,value
+Total Input Rows,116
+Total Output Files,4
+Rows per File (max),29
+Header Preserved,Yes
+Column Mapping,Original structure and order maintained
+Data Integrity,No loss or duplication
+Splitting Methodology,Sequential by row
+Audit Log,Split_Output/audit_log.csv
