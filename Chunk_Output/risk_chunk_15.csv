@@ -1,0 +1,27 @@
+Risk Title,Risk Desc,Category,Risk Type,Risk Subtype,Severity,Likelihood,Impact,Mitigation Plan,Contingency Plan,Mitigation Status,Risk Org Impact Strategy
+"Delay in access for Connexus PEDEV","Context:
+Pearson is responsible for provisioning and approving access for Ascendion team members to required project resources and environments, including the Connexus PEDEV environment.
+
+Condition:
+Access approval for the Telerik team has been delayed by Pearson since December 2025, preventing the team from accessing the required environment and tools needed for development activities.
+
+Consequence:
+
+Development activities are delayed due to lack of required access.
+
+Planned tasks could not be executed within the expected timeline.
+
+Risk of missing commitments defined in the release plan. Project-Level           External                          Customer      Moderate    Unlikely    Medium","Tracking access requests through a centralized tracker to monitor status and avoid further delays.
+Follow up regularly with the access provisioning team at Pearson plc to expedite approval for the Telerik team.",Re-prioritize the development backlog to focus on design, documentation, code reviews, and planning activities while waiting for access.,Assessed,Margin Impact Mitigate
+"Technology","Technology for Unified Platform still in not decided Project-Level          Technical                          Platform         Major    Possible      High","Internal risk - The project is still under discovery phase. Communicated the same to the internal team. Team to work closely with Cisco and ask enough time for new Technology",,Resolved
+"Availability of VM","VM is not available for Ssahidhar & Neeraj for installing the BPA Application Project-Level          Technical           Connectivity and access         Minor    Possible    Medium","Highlighted the unavailability of VM to Cisco and potential delay to the user stories",,Resolved
+"Delay in full filling open offshore India positions","Post completion of current quarter (on 25-Oct-2024), all US and Poland resources are to be replaced by resources in India. These resources should become completely operational by 25-Oct-24, so as to eliminate revenue loss. However, if there is a delay in on-boarding these resources, there will be loss in revenue due to on-boarding delays.  Project-Level     Organizational                         Resources      Moderate      Likely      High","Identify the suitable resources and complete on-boarding asap. Identify the suitable resources and complete on-boarding asap.",Financial Impact,Client Relationship,Reputation Loss,Revenue Loss Mitigate
+"GCP and ODM access both of which are critical to the project's implementation","ODM Access Issues for Automation POC
+
+Unavailability of required env. on time is being perceived as a risk to the project timeline.
+
+As a result of the delayed accesses, the team is not able to embark on tasks with respect to solution designing both from  ODM standpoint and as a result, now we are looking at a possible impact on the delivery timeline. Project-Level           External                          Customer        Severe Very Likely Very High","NA. Access depends on client's preparedness for furnishing required accesses on time",request for a changed delivery timeline,Financial Impact   Accept
+"Scope creep with respect to business rules extraction and ODM automation","Critical Issues Summary :-
+1.)	The GEN AI Rules outcome is extracting all the conditions in the program which are not business rules (I.e. DB Calls / Error Handling / File handling and other Technical items)
+2.)	GEN AI is not able to expand most of the cobol variables into business terms and is bringing them out as is in the program (We have asked for data dictionary to customer which they don’t have). We must build a data dictionary or look for alternate solutions.  
+ Project-Level           External                          Customer         Major      Likely Very High","Working on Solution with on house Architects",Working on Solution with on house Architects,Identified,Financial Impact    Avoid
