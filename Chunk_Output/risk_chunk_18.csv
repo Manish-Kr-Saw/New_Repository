@@ -1,0 +1,44 @@
+Risk Title,Risk Desc,Category,Risk Type,Risk Subtype,Severity,Likelihood,Impact,Mitigation Plan,Contingency Plan,Mitigation Status,Risk Org Impact Strategy
+"Project onboarding delays-2","Delay in laptop/tools/access for developers. Client laptops delayed in some cases
+Resources dont have enough information on POC/Tools/access from a set up stand point                   Organizational Processes within the organization      Moderate    Unlikely    Medium","1. Share the onboarding status regularly and update client about the need for stakeholder availability for equipments/access etc
+2. Team to prepare the project onboarding document for easy reference. cross team KT
+3. Follow up regularly on issues/challenges",,Identified
+"Resource Onboarding delays due to BGV or other issues-1","Resource Onboarding delays. BGV issues causing to look for backfill                   Organizational                         Resources      Moderate    Unlikely    Medium","1. Prepare BGV onboarding checklist and get the needed docs from the resource while sending offer. Do a quick review on our end
+2. Proactive/immediate hiring for roles 
+3. identify any bottlenecks and address those",,Identified
+"Cost Overrun due to the delay in initiating the project","Context: This is a fixed bid project, running till 17-Jan-25 which includes hypercare for 2 weeks.
+Condition: 4 weeks delay to start the project. Project start date was 14-Oct, team has been identified and onboarding is still in progress. Access has not been provided to the team to initiate the project.
+Consequence: Cost Overrun due to the delay in starting the project
+ Project-Level           External                          Customer        Severe Very Likely Very High","1. Billing should start from 11/11
+2. Contractor billing for 4 days with limited hours till we start the project
+
+Change request to cover the gap
+Track the project plan and highlight the dependencies to address them on priority basis to avoid further delay",Assessed,Financial Impact Mitigate
+"Connectivity establishment issues - Team based at offshore with client at onshore","Context: This is a fixed bid project, running till 17-Jan-25 which includes hypercare for 2 weeks.
+Condition: Currently the SPOC is at onsite and no offshore presence to follow up / discuss the queries if any
+Consequences: Waiting period will delay the project timelines Project-Level           External                          Customer         Major      Likely Very High","Block 30 mins everyday with Jason
+
+Need to establish the connects with the client POCs from GCC in Chennai/ Bangalore",Resolved,Financial Impact Mitigate
+"Niche skill (Rockwell Automation)","Automate Integration Tests for Figurate PlantPAx simulation controllers
+
+Context: This is a fixed bid project, running till 17-Jan-25 which includes hypercare for 2 weeks.
+Condition: Rockwell automation is a niche skill and currently we don't have expertise in this area. Currently identified & onboarded an external resource with this skill set.
+Consequences: In case of the expert's unavailability during the course of the project, execution will have an impact.
+ Project-Level          Technical            Software license costs        Severe    Possible Very High","Upskill the existing team members.
+
+For the long term contracts, plan for licensing & building the skill set",Identified,Client Relationship Mitigate
+"Architect / Lead's unavailability for 2 weeks may cause issues for the technical guidance to the team","Automate Integration Tests for Figurate PlantPAx simulation controllers
+
+Context: This is a fixed bid project, running till 17-Jan-25 which includes hypercare for 2 weeks.
+Condition: Anurag was involved right from the RFP stage and knows the requirement and has been a guide to the team 
+Consequences: Unavailability for 2 weeks may cause issues for the technical guidance to the team
+ Project-Level Project Management                        Governance         Major      Likely Very High","1. Identify a bench resource or C# / .NET circle to provide support during Anurag’s absence
+2. Meera to co-ordinate with client and get the required help from circle as needed
+
+Mentor the lead to take care of such situations in the future",Resolved,Reputation Loss Mitigate
+"Un-availability of the client SPOC during Thanks giving & Christmas holidays","Context: This is a fixed bid project, running till 17-Jan-25 which includes Hypercare for 2 weeks.
+Condition: Currently the SPOC is at onsite and no offshore presence to follow up / discuss the queries if any
+Consequences: Waiting period for the scenarios (Rungs) and review will delay the project timelines Project-Level           External                          Customer         Major Very Likely Very High","a. SPOC to share a maximum no. of Rungs (scenarios) for the team to work on during his absence
+b. Assign a technical person who can review the test cases during his absence
+
+Identify a person at offshore who can support the team in such situations",Resolved,Margin Impact Mitigate
