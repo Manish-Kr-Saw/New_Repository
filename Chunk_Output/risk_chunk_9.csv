@@ -1,0 +1,36 @@
+Risk Title,Risk Desc,Category,Risk Type,Risk Subtype,Severity,Likelihood,Impact,Mitigation Plan,Contingency Plan,Mitigation Status,Risk Org Impact Strategy
+"Gaps in alignment ( JIRA, Documentation,business requirements)","Documentation and alignment of business, functional and technical requirements. Gaps in alignment to new Jira process and use Project-Level Project Management                        Governance      Moderate    Unlikely    Medium","Daily JIRA check ins with Scrum Masters
+Weekly JIRA Governance calls for alignment 
+JIRA and Agile courses assigned as mandatory training to all team members ( 2/8)",,Identified,Client Relationship Mitigate
+"Hiring Freeze in KPMG - ASSETMGMGTA-23821","KPMG has a company wide hiring freeze , requests raise dfor onboarding new members have been on hold - impact to timeline Project-Level           External                          Customer         Major    Possible      High","Need a plan from KPMG to overcom this",,Resolved,Client Relationship Mitigate
+"Implementation of technologies where the development team has limited / no experience","	Complete POCs aligned to business requirements to understand how to implement / use technology within the solution
+	Reduce scope of POCs in Phase 2 to keep development team focused on application developmente Project-Level     Organizational                        Technology         Major    Unlikely    Medium","	Key areas from Phase 1  Office Apps, Syncfusion, SignalR, DIT Janus Viewer and PDF Snipping; KCw Sampling API
+ 
+	Focusing Phase 2 on highest priority technologies to reduce areas of risk / inexperience with the development",,Resolved,Client Relationship Mitigate
+"New QA - prod like environment","n yesterdays QA Sync up call, we got to know that there is a new environment QA going to get in which will be the final one. We do not know much about these details and on the timelines of this new environment yet. It looks like Global Helix may not satisfy certain of the production like aspects and hence this new environment.
+ 
+With Helix, QA created a very strict timelines to complete execution of all the requirements including re-testing every item that were initially tested in DevTest and Global Test. This also included one hour of additional work per day from each QA during Helix retesting period. This plan was already stringent, and any deviation would pose a risk in QA completion on time.
+ 
+Now, with this new environment, QA, we heard in the QA Sync up call that we may not need entire retesting as new QA will be getting in. Rather a regression will be enough. Currently we do not have the details on the new QA timelines. But this is going to be a risk for QA to complete as planned with the additional retesting getting in place. Also switching into multiple environments involves additional rework from QA.
+ 
+Helix environment readiness check / regression
+QA environment readiness check
+QA environment retesting of all the executed requirements in DevTest, Global Test, Global Helix Project-Level          Technical                   Software update         Major    Possible      High","This is a old risk identified for V1 which has been delivered.",,Resolved,Client Relationship Mitigate
+"No Process finalization and team coordination - Code quality and Dev Process","Coding quality and development process enhancements (including Git branching strategy) to correct Phase 1 gaps. Project-Level          Technical         Audit requirement changes         Minor    Unlikely       Low","5/19 - JIRA processin place, review process in place, Versioning is not in place- needs implementtion",,Resolved,Client Relationship Mitigate
+"No Process finalization and team coordination - missing Tech Specs","Missing technical specifications in requirements.  To be completed prior to starting development to ensure alignment of technical approach with business requirements; identify and solution areas of highest complexity/uncertainty prior to starting development.  Project-Level Project Management                        Governance        Severe    Unlikely      High","Approvals from Ascendion ( Saikat) and KPMG for Design Documentation as a pre-requisite before development can begin
+5/19 - Requirements and Design documents have strict orkflow that requires multipel level of approval , the process is in place, hence closing this risk",,Identified,Client Relationship Mitigate
+"No Process finalization and team coordination - Testing process","Finalize new testing process between KPMG Testing Team and Ascendion QA team. Enhance testing process to correct gaps identified in Phase I, and align with SAT testing requirements.  Design and execution of Testing approach. Project-Level Project Management                         Execution         Minor    Unlikely       Low","5/19 - QA Quality confirmed as improved by client (Melissa's feedback email attached); SAT still needs clarity, Shwet to check with Sony on this as well",,Resolved,Client Relationship Mitigate
+"Not having alignment of the right people and skills to meet project objectives","	Key focus areas:
+	.NET and Full Stack developers with business understanding of objectives
+	Testing
+	Excel, OfficeJS and Office Apps
+	Data modelling 
+	Business analysts Project-Level     Organizational                         Resources         Major    Possible      High","	Ascendion working to onboard new people in a few key areas for Phase 2 to meet project objectives
+ 
+	Skill set gaps continue to be noted; additional work needed to continue onboarding people with the right fit
+ 
+	Hiring continues at KPMG as well to drive towards co-delivery model
+5/19/23 - Changes made in WF pod to address quality issues - This complete
+Routine pod - hiring  is ongoing
+this still stays as high priority, high impact as it impacts program lines",,Resolved,Client Relationship Mitigate
+"Perf test - no time for fixes as no dates for perf tests are not available.","KPMG has involved perf test team but there are no dates when can perf test ve conducted, if there are any finding, it will be hard to fix it in time Project-Level Project Management                         Execution         Major    Possible      High","Raised in 5/23 meeting with KPMG- Suggestion that pilot and live will be different and we might fix anythign after pilot",,Resolved,Client Relationship Mitigate
