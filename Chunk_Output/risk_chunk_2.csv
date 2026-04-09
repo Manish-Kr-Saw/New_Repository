@@ -1,0 +1,108 @@
+Risk Title,Risk Desc,Category,Risk Type,Risk Subtype,Severity,Likelihood,Impact,Mitigation Plan,Contingency Plan,Mitigation Status,Risk Org Impact Strategy
+"Dev, QA/Staging and Production Environment mapping for Monroney Application with other Systems that are integrated","Mapping of Monroney Application Environment with the Integrations to the Systems not available in the Plan yet",Project Management,Planning,Moderate,Unlikely,Medium,"Raised this with VOLVO will need to be added to the Plan and Tracked
+for Dev, QA, Staging? and for Production [Mapping of Source and Target Systems]",,Identified,
+"DoD Agreement within the Team","Definition of Done not Clear",Project Management,Execution,Minor,Unlikely,Low,"* This was discussed in Scrum on 7/8 - Team agreed to push to DONE status on the Kanban board in ADO/JIRA to give cue to Testing team / Review Teams to act on Testing and Reviews on PBI and Tasks",,Identified,
+"Port Processing Testing and Support","Port Processing for each Location might be Unique, and need to draw proper Alignment with applicable Support and Business teams - This may pose issues during SIT/UAT",Project Management,Planning,Moderate,Unlikely,Medium,"* Project Plan covers specific tasks - This needs to action with relevant Business and Support folks as identified for each Port location in scope for Wave 1",,Identified,
+"Product Backlog Refinement MOS","Product Backlog Refinement / Grooming not structured. 
+In Sprint grooming seen",Project Management,Execution,Moderate,Unlikely,Medium,"Need to coach and set up MOS by brining in best practice. hear out to the team on other practical challenges via Retrospection session(s)",,Assessed,
+"SOW Scope to fullfilment","SOW Scope is not mapped with Requirements Tags - This may outfall as Commitment Not fulfilled Per agreement and since this is tied to commercials",Project Management,Planning,Major,Possible,High,"Current plan is to anchor on Requirements excel file compiled by the Product Owner for the EPICS and FEATURES. Need to True Up the SOW with a Change Request","Submit a Change Request and get that Signed with the Scope that is finally agreed with the business",Identified,
+"Support Transition for MVP Support","No plan exists on Support Transition / End to end Support Ecosystem - L1/L2/L3...",Project Management,Planning,Severe,Unlikely,High,"* Agreed to handle separately as the Contract Proposal
+* Lucy and Wally to discuss this further and provide the Scope for Ascendion",,Identified,
+"UAT Readiness by business and Test Scenarios","UAT Readiness Not in Project Plan - This will need a structured Test Scenarios and Test Cases mapped to the EPICS / Features / User Stories as applicable",Project Management,Planning,Moderate,Unlikely,Medium,"Requested Business PMO to add UAT readiness in the Master Plan for the project and also requested for UAT Test cases / scenarios for Ascendion at least 2 weeks from start of UAT",,Identified,
+"UI Development in the current plan is a Risk to Schedule as the ETA is late Sprint / Iteration 4","Following PBIs that are planned to finish Late in Sprint 4 Have to be elaborated for any dependencies and understand possibilities to finish earlier in Sprint 4 cycle
+3203941 - 3/29
+3212904 - 3/29
+3212906
+3214202
+3214341
+3214342
+3214350
+3214358 - 3/29
+3214362
+3214367
+3202667 - 3/29",Project Management,Execution,Major,Possible,High,"* Sprint 4 must be used as buffer and/or Code factoring / Defect fixing, doing development that far may be risky (current plan for UAT is 4/3 - 4/7)
+* If these have to start late and finish late then Goutam M has to review these and ensure we have zero technical risk / complexity and or any dependency with BE and or with any integration APIs",,Assessed,
+"VBOX API Changes","Decision on VBOX API Changes not available",Project Management,Planning,Major,Unlikely,Medium,"* This is not a dependency for Dev team (Need to confirm this with Goutam M), however this needs to be decided for Wave 1 Go Live",,Identified,
+"Critical Resources plan of deployment","Phase-1 currently progressing and Phase-2 expected to start by 1st Feb 2024.
+Solution Architect who plays the significant role and also MEAN stack developers yet to be identified to kickoff development as per the plan.",Project Management,Planning,Minor,Possible,Medium,"Currently working on inclusion of Solution architect position in pricing sheet and validation of suitable profiles.
+Started focusing on MEAN stack developer L1/L2 validations. 
+
+04th April 24:
+Critical roles deployed and Development started effective from 15th Mar.
+",,Resolved,Financial Impact, Reputation Loss  Mitigate
+"Velocity Dip","Velocity should be in the range of 50+. But team could perform 30% less of planned velocity for last sprint. 
+
+this caused due to below..
+•	Team members unplanned leaves 
+•	Failed to check prerequisite of the user story.
+•	UI Lead project movement ",Project Management,Estimation,Minor,Possible,Medium,"Sprint review with the client occurs at the end of each sprint.
+The client is currently fine despite a slight dip in velocity.
+The delivery team is committed to eliminating any deviations from the plan in future sprints by:
+•	Conducting thorough grooming sessions.
+•	Creating effective plans that account for ad hoc leave.
+•	will plan on weekend extension
+•	User story optimization and revised story points as an ongoing activity
+•	Diligently following up on transitions effectiveness
+
+29th May:
+Team worked on weekends 
+",29th May:
+Team worked on weekends to increase the velocity.
+
+11-Jun-2024: Teams' Velocity has been improved to match with planned schedule..,Assessed,Reputation Loss Mitigate
+"Code Coverage along with unit tests should be focused on.","Client is using Sonarqube for code quality measurement. Code coverage along with unit testing yet to be planned. Currently in discussion with client to add an amendment in SOW for using Digital Ascender. Once it is incorporated in SOW to use DA, Team will focus on Unit tests along with code coverage.",Project-Level,Technical,Software update,Moderate,Unlikely,Medium,"Client is using Sonarqube for code quality measurement. Code coverage along with unit testing yet to be planned. Currently in discussion with client to add an amendment in SOW for using Digital Ascender. Once it is incorporated in SOW to use DA, Team will focus on Unit tests along with code coverage.",12 -Jul - 2024
+SOW amendment signed off for using Digital Ascender. Team started exploring on using Digital Ascender by coordinating with our AVA team..
+
+18-07-2024
+Current Status-Unit testing is being done by developers manually.
+Complete Unit Testing: Developers must perform unit tests and attach the required proof to the user stories.
+Review and Verification: QA team will review the proof to ensure completeness and correctness.
+Example Proof:
+•	Front-End: Screenshot showing UI test results.
+•	Back-End: Postman screenshot showing request/response details and payloads.
+All user stories are tested with required test coverage and tracking is done in excel and that is getting attached in Azure board.
+,Assessed,Client Relationship Mitigate
+"Delay in requirement finalzsation of few features","Context: This is fixed bid project where doing Application modernization from sharepoint to MEAN stack
+Condition: Few of the critical requirements not finalized from client side.
+Consequence:  Project schedule will get affected and margin will be impacted.",Project Management,Execution,Minor,Possible,Medium,"Few requirements yet to be freeze from client side. Communicating the impact to client and requesting to finalzse the requirement with the given schedule.",Below are items requested to finzlese within the given ETA and client is working towards finalization through additional calls.
+Sent a revised plan to deliver these items by considering the delay in requirement freeze. Client is fine on that.
+
+WAVE WORKFLOW Battery Workflow Battery Information Form
+WAVE WORKFLOW Battery Workflow Battery MSDS Form
+WAVE WORKFLOW Packing Workflow Geo Packaging Form
+WAVE WORKFLOW Packing Workflow Packaging Record
+LANDING PAGE Landing Page Dashboard
+ADMIN FORMS Wireless - Add Wireless family
+ADMIN FORMS Wireless - Add Wireless Module
+ADMIN FORMS Wireless - Add Integrated Device
+ADMIN FORMS Wireless - Add Option Type
+ADMIN FORMS Wireless - Update End of Life Certificates 
+ADMIN FORMS Wireless - Archive Wireless Module
+ADMIN FORMS Wireless - Archive Integrated Device
+ADMIN FORMS Wireless - Archive Option Type
+ADMIN FORMS Ship To Locations Add / Update Ship to Locations List
+ADMIN FORMS Ship To Locations Add / Update Certification Requirements
+ADMIN FORMS Certificate Types Add / Update Certificate Typ
+ADMIN FORMS Document Types Add / Update Document Types
+Document management
+Document Access
+21st Aug: All required clarifications done from client side.,Assessed,Financial Impact Mitigate
+"Additional resources required for CVS Retail Production Support and planning to submit CR & secure approval","CVS Retail Production Support has majorly 4 towers.
+1) Rx Growth
+2) Front store
+3) Supply Chain & Patient Safety
+4) Store Operations
+
+We observe scope and coverage change across the towers. Hence we are in need of additional resources for CVS Retail Production Support. Planning to submit and secure CR approval.",Project-Level,Organizational,Requirements,Moderate,Likely,High,"Planning to rotate experienced resources within towers to ensure that there is no delivery impacts.
+Added 4 buffer resources to accommodate current staffing needs and ensure that we are bringing stability across towers.
+Planning to execute with optimized team effective Sep 01,2024",Planning to onboard data engineers post management approval and to accommodate scope & coverage changes.
+Added 4 buffer resources to accommodate current staffing needs and ensure that we are bringing stability across towers.
+Planning to execute with optimized team effective Sep 01,2024,Resolved,Revenue Loss,Margin Impact,Financial Impact Mitigate
+"Optimized Production Support demands high risk on delivery & Issues on Shift Coverage","Reduced team size may lead to high risk on delivery & Shift Coverage gaps.
+CVS Retail Production Support has majorly 4 towers.
+1) Rx Growth
+2) Front store
+3) Supply Chain & Patient Safety
+4) Store Operations
+
+We are planning for Optimized Production support effective September 01,2024 in order to synchronous with our proposed staffing plan and it demands high risk on delivery and shift coverage issues considering any ad-hoc leaves/national holidays",Project Management,Execution,Moderate,Possible,High,"Bring In synergy between all 4 towers for L1 team, and automate manual activities as much as as possible to reduce the day to day effort.",Additional resources to be added across all towers to ensure 24*7 support without any delivery issues,Resolved,Client Penalties,Reputation Loss Mitigate
