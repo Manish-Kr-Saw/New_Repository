@@ -1,0 +1,28 @@
+Risk Title,Risk Desc,Category,Risk Type,Risk Subtype,Severity,Likelihood,Impact,Mitigation Plan,Contingency Plan,Mitigation Status,Risk Org Impact Strategy
+"Extended timeline to complete development activities","Context: Complexity of microservices development work is taking additional time than expected
+Condition: Timeline impact
+Consequence: Expecting deployment to push by 3 weeks. Project-Level          Technical                   Software update      Moderate    Possible      High","Revised timeline has been discussed with SCAN, will be closely monitoring the progress for next 2 weeks and report the status on deployment planning.
+All development activities completed, and Microservices/API were already pushed to UAT.",,Resolved,Margin Impact   Accept
+"Potential delays in UAT testing timeline that can impact deployment schedule.","Context: UAT is done by another team (ValTech)
+Condition: ValTech team's UAT execution is delayed by a few weeks (3-4)
+Consequence: Our deployment schedule will be affected due to delay in UAT completion/signoff. Project-Level           External                          Customer         Major    Possible      High","Discussed with UAT stakeholders to ensure the first round of testing to be completed by 6/19 to avoid major impacts.
+Our team will be focusing on DSO Member portal microservices development while UAT is in progress.
+Our team will be focusing on DSO Member portal microservices development while UAT is in progress.",Assessed,Margin Impact Mitigate
+"Current SoW ends on 9/29/2023","Context: Current SoW ends on 9/29/2023. This is a T&M-TOD project with one resource (C2C)
+
+Based on our discussion with Client leadership a month ago, there is no likelihood of SoW extension beyond 9/29/2023 due to the following reasons
+1. Priority is shifting to TLM initiatives within client organization
+2. Directive from Client senior leadership to go with internal Fidelity FTEs or Talentsource for smaller engagements. They want to do away with SoWs for such initiatives going forward in Asset management area
+
+This will have an impact on Revenue. 
+
+We will start the project transition and handover activities in the last 2 weeks and redeploy the resource.  Project-Level Project Management                  Revenue / Margin         Major Very Likely Very High","Project transition and hand over activities. Redeployment of resource",Plan for project hand over/transition activities. Redeployment of resource,Assessed,Revenue Loss   Accept
+"Project extension till 11/30. Moving from SoW to TOD. If the transition does not happen by 9/29, consultant might loose access to systesm","Client wants to extend the project (one member team) till 11/30/2023 however would like to the extension as TOD due to internal Fidelity policies for smaller engagements and time consuming approvals. So this is moving from SoW to TOD for the extension period. If all processes for transiton are not done on Fidelity side by 9/29, team may loose access to Fidelity systems for a few days and can affect deliverables. Project-Level Project Management                  Revenue / Margin        Severe Very Likely Very High","Discussed the risk with client leadership. Requested to get exemption for access post 9/29 to avoid access revivals and associated delays
+
+If exception not approved, provided heads up to chapter leader for deliverables commitment to move to following sprint",Identified,Revenue Loss    Avoid
+"Access to Fidelity systems not available for EM efficient tracking/reporting-2","Client wants all reports and information shared within client network. No reporting outside of client network                        Technical           Connectivity and access      Moderate    Unlikely    Medium","1. Discuss with client early on to see possibilities of getting access to project tracking tools (JIRA)/add EM to Fieldglass
+2. initiate the request through AM
+2. Request for access prior to project kick off",,Identified
+"Ascendion Email ids for non-FTEs-2","Ascendion email ids for all contractors not available. No effective way of communication and difficulty in project tracking. Personal email ids not standard protocol for official communication                   Organizational Processes within the organization         Minor    Unlikely       Low","1. Create ascendion emails as part of onboarding process itself
+2. Crate teams folder for proejcts and provide access to all
+3. Regular tracking and project updates",,Identified
