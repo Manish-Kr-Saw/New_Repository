@@ -1,0 +1,37 @@
+Risk Title,Risk Desc,Category,Risk Type,Risk Subtype,Severity,Likelihood,Impact,Mitigation Plan,Contingency Plan,Mitigation Status,Risk Org Impact Strategy
+"Oracle Versions 11 that is no more supported by oracle","Oracle Versions 11 that is no more supported by oracle and 12 for which extended support will be stopped by July 2025​
+
+Impact: Oracle will not support any issues with these databases. This will have considerable impact on business operations if not addressed timely​ Project-Level          Technical                   Software update         Major      Likely Very High","Agree and implement a modernization plan for these databases​",Agree and implement a modernization plan for these databases​,Assessed,Margin Impact Transfer
+"Keys and Passphrases of already encrypted databases not available","Business critical databases including SIEBEL Marketing / customer care (PCPRD) cannot be decrypted if required Project-Level          Technical                   Data corruption         Major      Likely Very High","Working with Oracle to check alternatives​
+
+Checking with CAP team whether they have stored keys offline​
+
+Testing alternate solutions to decrypt without Keys. Need to have existing wallet file backup and ensure auto login is enabled – already implemented
+
+Working with Oracle to check alternatives​
+
+Checking with CAP team whether they have stored keys offline​
+
+Testing alternate solutions to decrypt without Keys. Need to have existing wallet file backup and ensure auto login is enabled – already implemented",Data Loss Mitigate
+"Oracle Skilled resources availability in market.","a. We are finding it difficult to get Oracle skilled resources in the market if any attrition happens. It takes 4 to 6 months to get a resource according to the project fitment. Project-Level     Organizational                         Resources         Major    Possible      High","We are proactively looking for Oracle skilled resources.",Support with the available resources while prioritizing operations over project delivery.,Assessed,Client Relationship,Financial Impact,Revenue Loss Mitigate
+"GTS 16x5 resource availability","There were only 4 resources available to support 16x5.
+Due to limited number of resources and lack of backup support, there is a potential risk related to coverage during unforeseen circumstances.
+
+We recommended using the 24x5 and 24x2 shift plans and its accepted by the customer.
+
+ Project-Level     Organizational                         Resources         Major      Likely Very High","Currently we are providing 24x7 support with the 24x5 and 24x2 shift plans and its accepted by the customer.",Currently we are providing 24x7 support with the 24x5 and 24x2 shift plans and its accepted by the customer.,Resolved,Client Relationship,Financial Impact,Revenue Loss Mitigate
+"Resources","2 of the resoruce under Chris team has been consistently unavailable to address issues over the past few weeks, attributing it to connectivity problems, but there are concerns as he doesn't consistently attempt to reconnect or log in after issue resolution, and current attempts to contact him show no response. Project-Level     Organizational                         Resources      Moderate      Likely      High","Meeting with Chris to discuss on the replacement plan and also working on backup.",We have an ELT in place who is shadowing the current team,Assessed,Reputation Loss , Client Relationship Mitigate
+"Resources & Skill Gap","Data Quality team Offshore/Onshore Leads to play an active role in mentoring and monitoring the work of team; Offshore developers are not showing confidence with Data Quality lifecycle/process, Offshore developers are not aware of SQL Profiling & data warehouse concepts Project-Level     Organizational                           Quality      Moderate      Likely      High","Offshore/Onshore Leads to split time 75% development & 25% mentoring, supporting and leading team members, Upskilling on SQL & Data Warehousing knowledge, Ascendion Data Engineering practice team to be involved in assessment",,Assessed,Reputation Loss , Client Relationship Mitigate
+"SLA commitment","Context:   The following SLA requirements is mentioned in the SOW. 
+
+"Maintaining SLAs will be a shared responsibility. All SLA requirements will be discussed mutually and agreed post transition before Go-Live. o A change request will be approved if the headcount of 81 needs any additions based on the baselined SLAs to be met. Non-performance discount shall be applied to the track which has SLA deviation and not the entire SOW invoice amount for the month."  
+
+Condition:  
+
+However, the complete traceability and measurement of the SLA will be done once fit shoring is completed. Metrics data collection is a challenge now as we many contractors at onshore.  
+
+Consequence: 
+Any penalties applicable as per SOW will be levied on Ascendion. 
+ Project-Level     Organizational Processes within the organization        Severe      Likely Very High","a. For each track mutually agree upon the unit of measure for the SLA. 
+b. Collect the performance measurement metrics on a monthly basis. Jointly review with SC and publish.
+",,Identified,Financial Impact Mitigate
