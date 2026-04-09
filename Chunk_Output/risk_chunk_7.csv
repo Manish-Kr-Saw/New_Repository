@@ -1,0 +1,77 @@
+Risk Title,Risk Desc,Category,Risk Type,Risk Subtype,Severity,Likelihood,Impact,Mitigation Plan,Contingency Plan,Mitigation Status,Risk Org Impact Strategy
+"Baselining of transformation rules/mapping document (Business Domain Entity Mapping)","As part of data migration customer is going to provide the mapping in excel which would give mappings from entity level between Sch 1 & Sch X Project-Level     Organizational                      Requirements         Major    Possible      High","Continue to have data mappings meeting with ShiftKey till we have not completed all entties.
+
+03/16/2026 -> Project on HOLD. Closing the observation in AAVA.
+
+If the mapping is not ready as per specified project plan then we need to update the plan and get approval from Customer.",Resolved,Financial Impact,Data Loss,Client Relationship Mitigate
+"Delay in CR approval","ShiftKey takes lot of time in approving CR's which impacts the budget and delay as per original CR timelines. Project-Level           External                          Customer      Moderate      Likely      High","Follow-up with ShiftKey on approval.
+
+03/16/2026 -> Project on HOLD. Closing the observation in AAVA.
+
+Follow-up with ShiftKey on approval.",Identified,Financial Impact,Revenue Loss,Margin Impact Mitigate
+"Schd X - Releases impact","As new developments and releases are introduced in Schedule X, there is a possibility that the Upgrade environments may not be updated in a timely manner, leading to inconsistencies and the environments being out of sync. Project-Level           External                     Environmental      Moderate      Likely Very High","Establish a regular sync process to ensure that all new developments and releases in Schedule X are reflected in the Upgrade environments.
+Automate environment refresh or synchronization wherever possible to reduce manual effort and oversight.
+Assign ownership to a dedicated release manager or DevOps resource to track and validate updates across environments.
+Include an environment sync checkpoint in the release checklist to confirm alignment before testing or migrations begin.
+
+03/16/2026 -> Project on HOLD. Closing the risk in AAVA.
+
+If environments are not synchronized, testing and validation could be performed on outdated code or configurations. This may result in missed defects, inaccurate upgrade readiness validation, and potential delays in migration timelines. In worst cases, it could cause production defects if unsynced changes are promoted forward.",Assessed,Data Loss,Financial Impact Mitigate
+"4 Integration recipes will not be available for end-to-end testing during pilot: Census IN, Schedule Out, PTO Balance IN/Show, Approved PTO IN","We will not have below 4 integration recipes developed and available for testing during the pilot phase
+Census IN, Schedule Out, PTO Balance IN/Show, Approved PTO IN
+
+end-to-end testing of migration of data with these recipes will not be possible. Project-Level           External                     Environmental      Moderate Very Likely Very High The approach we're taking means that we can add new integrations quickly as soon as they become available with minor to no change to the routines performing the upgrade. What should be in scope for the pilot is the following:
+
+- collection of the api or sftp connection info for every integrations regardless of type, part of e2e for the ones in the pilot
+- routine/data pipeline that handles updating configuration info in workato for connectors, this should be general purpose and work for any sftp or api, e2e for the pilot
+
+- collection of the job run times from all existing integrations regardless of type, part of e2e for the ones in the pilot
+- routine/data pipeline that handles updating configuration info in workato for file or api triggers related to when the job should run, this should be general purpose and work for any sftp or api, e2e for the pilot
+
+- collection of the custom config and mappings of all existing integrations regardless of type, part of e2e for the ones in the pilot
+- routine/data pipeline that handles updating configuration info in workato lookup table, this should be general purpose and work for any sftp or api, e2e for the pilot
+
+Decision added to remove these from Pilot Scope -> Decision 198407 Remove following integration from pilot scope: Census IN, Schedule Out, PTO Balance IN/Show, Approved PTO IN
+
+03/16/2026 -> Project on HOLD. Closing the observation in AAVA.
+
+end-to-end testing of few functionalities will not be possible during pilot.
+
+However, key steps in the activities for all integrations will be present so that should reduce the risk. e.g.
+routines to collect cron and custom config information by chain
+routines to provision different integrations types using SK provisioning tooling
+routines to map arbitrary XML files (via xpath) to arbitrary JSON via (e.g. JSONPath)
+routines to update workato connectors with connection info",Assessed,Data Loss,Margin Impact Mitigate
+"Migration scaling issues","Scaling buildings is creating few problems.
+- Sch X Application
+- Auth0 Throttling
+- ADF Pipeline Project-Level          Technical          Platform incompatibility         Major Very Likely Very High","Discuss with Microsoft on ADF limitation in Subscription
+Implement ADF pipeline changes related to Auth0 rate limiting
+Sch X Application application scaling
+
+03/16/2026 -> Project on HOLD. Closing the observation in AAVA.
+
+Issues should be fixed otherwise we will not be able to scale buildings as per monthly migration plan and it will impact revenue.",Identified,Data Loss Mitigate
+"On time availability of Infrastructure requirements","Context: The BOM Planogram project Phase-1 requires Azure OpenAI and Doc Intelligence in CVS network to work with. 
+Condition: AI Governance approval is received but the provisioning of the Infrastructure is not yet complete, requests are raised. 
+Consequence: Delay in getting the approval may result in extension of the POC project beyond deadline. Project-Level           External                          Customer         Minor    Possible    Medium","There are 2 mitigation plans:
+1. AI Governance board approval is already received and working with client to get the infrastructure provisioned at the earliest. 
+2. Back plan is to execute the POC in Ascendion network as the Planograms are available in Ascendion.
+
+Complete the POC in Ascendion network till the infrastructure requirements are available in CVS.",Identified,Margin Impact Mitigate
+"On time availability of client infrastructure/environment","Context:
+The project plan targets development completion by 28 Feb, testing and deployment by 31 Mar, and hypercare completion by 30 Apr.
+
+Condition:
+The required client cloud infrastructure (except Azure OpenAI) is not yet provisioned and is subject to multiple internal reviews and approval cycles.
+
+Consequence:
+Delays in environment availability may extend the overall project timeline, potentially requiring resource extensions and impacting planned project margins. Project-Level           External                          Customer         Minor    Unlikely       Low","Continuous follow-up and tracking with the client cloud infrastructure team through daily communications and action tracking to finalize architecture decisions and expedite provisioning of the required Azure services.
+Development and iterative testing are progressing within the Ascendion environment using equivalent Azure services to prevent schedule idle time.
+The codebase being built in Ascendion environment will be migrated and validated in the client environment immediately upon infrastructure availability.
+Development and iterative testing are progressing within the Ascendion environment using equivalent Azure services to prevent schedule idle time.
+The codebase being built in Ascendion environment will be migrated and validated in the client environment immediately upon infrastructure availability.
+
+Based on current utilization and burn rate, the planned project team can be retained for approximately one additional month without impacting project margin.",Identified,Margin Impact Mitigate
+"ASSETMGMGTA-21958","Risk that we have limited time to run perf test and fix any finding, KPMG  has limited expectation for pilot and therefore we might be okay Project-Level Project Management                         Execution      Moderate    Possible      High","This is a old risk identified for V1 which has been delivered.",This is a old risk identified for V1 which has been delivered.,Resolved,Client Relationship Mitigate
+"ASSETMGMGTA-24627","Determine how routiens will be executed, one fund per routine or entire fund Project-Level Project Management                         Execution         Major    Possible      High","This is a old risk identified for V1 which has been delivered.",This is a old risk identified for V1 which has been delivered.,Resolved,Client Relationship Mitigate
